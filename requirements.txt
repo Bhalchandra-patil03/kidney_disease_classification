@@ -1,5 +1,7 @@
 tensorflow
 pandas 
+dvc
+mlflow==2.2.2
 notebook
 numpy
 matplotlib
@@ -7,9 +9,10 @@ seaborn
 python-box[all]~=7.0
 tqdm
 ensure==1.0.2
+types-PyYAML
 joblib
 scipy
 Flask
 Flask-Cors
 gdown
-# -e .
+# -e .clear
