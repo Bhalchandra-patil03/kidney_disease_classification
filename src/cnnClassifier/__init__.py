@@ -15,7 +15,7 @@ logging.basicConfig(
 
     handlers=[
         logging.FileHandler(log_filepath),
-        logging.StreamHandler(sys.stdout) # print all the logs inside the terminal
+        logging.StreamHandler(sys.stdout)
     ]
 )
 
